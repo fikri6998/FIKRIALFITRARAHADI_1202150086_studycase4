@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FIKRI ALFITRA RAHADI_1202150086_studycase4</string>
+
+    <string-array name="namaMahasiswa">
+        <item>Fikri</item>
+        <item>Alfi</item>
+        <item>Radi</item>
+        <item>Bintang</item>
+        <item>Rafli</item>
+        <item>santi</item>
+        <item>Rafi</item>
+        <item>Raldi</item>
+        <item>Peth</item>
+        <item>Marius</item>
+        <item>Sally</item>
+        <item>Wanusi</item>
+        <item>Aldi</item>
+        <item>Fany</item>
+        <item>Wilberth</item>
+
+    </string-array>
+
+</resources>

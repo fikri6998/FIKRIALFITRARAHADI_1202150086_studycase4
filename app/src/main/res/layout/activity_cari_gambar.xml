@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fikri6998.fikrialfitrarahadi_1202150086_studycase4.CariGambarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="Cari Gambar"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/ImgURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Masukkan Link Gambar Disini"
+            android:inputType="textMultiLine"
+            android:padding="8dp"
+            android:text="http://www.hdcarwallpapers.com/walls/2018_bugatti_chiron_sport_4k_4-HD.jpg" />
+
+        <Button
+            android:id="@+id/btnImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@color/colorPrimary"
+            android:text="Cari Image"
+            android:textColor="#f5f5f5" />
+
+        <ImageView
+            android:id="@+id/Imgview"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_margin="20dp" />
+    </LinearLayout>
+
+</ScrollView>
